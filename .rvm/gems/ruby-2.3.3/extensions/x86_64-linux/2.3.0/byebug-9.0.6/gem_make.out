@@ -1,0 +1,19 @@
+current directory: /home/vagrant/.rvm/gems/ruby-2.3.3/gems/byebug-9.0.6/ext/byebug
+/home/vagrant/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170301-21503-vq9dgg.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/.rvm/gems/ruby-2.3.3/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/.rvm/gems/ruby-2.3.3/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling context.c
+compiling breakpoint.c
+compiling byebug.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/vagrant/.rvm/gems/ruby-2.3.3/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20170301-21503-80sjcq/byebug
